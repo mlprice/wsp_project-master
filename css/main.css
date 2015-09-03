@@ -1,0 +1,148 @@
+/* Project CSS: Meagan Price - Web Standards Project - September 2015*/
+@font-face {
+    font-family: lemondrop;
+    src: url(../fonts/Lemondrop.ttf);
+}
+
+@font-face {
+    font-family: Gravity;
+    src: url(../fonts/Gravity-Book.ttf);
+}
+
+body{
+    background-image: url("../img/halftone.png");
+    background-color: blanchedalmond;
+    font-family: Gravity;
+}
+
+#container{
+    background-color: #ffffff;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#head{
+    font-family: lemondrop;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+#link_nav{
+    border-bottom: 2px;
+    border-style: double;
+}
+
+#head h1{
+    font-size: 3em;
+}
+
+#intro{
+    background-color: #ffffe0;
+    max-width: 80%;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#intro h2{
+    font-family: lemondrop;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#intro p{
+    font-family: lemondrop;
+    text-align: center;
+}
+
+#feed_title{
+    border-style: double;
+    border-bottom: 4px;
+    font-family: lemondrop;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#feed{
+    background-color: #f0f8ff;
+    max-width: 80%;
+    max-height: 400px;
+    overflow: scroll;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    border-style: double;
+    border-width: 5px;
+    text-align: center;
+}
+
+img{
+    max-height: 50%;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#nav_post{
+    margin-bottom: 20px;
+}
+
+#cta_post{
+    margin-bottom: 20px;
+}
+
+#about_post{
+    margin-bottom: 20px;
+}
+
+#feed_post{
+    margin-bottom: 20px;
+}
+
+#gallery_post{
+    margin-bottom: 20px;
+}
+
+#featured{
+    float: right;
+    font-family: lemondrop;
+}
+
+#home{
+    font-family: lemondrop;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#post_title{
+    font-family: lemondrop;
+    font-size: 2em;
+    text-align: center;
+}
+
+#comp_img{
+    max-height: 70%;
+    max-width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#visual{
+    font-size: 1.3em;
+    margin: 5px;
+}
