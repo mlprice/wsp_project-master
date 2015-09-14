@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Renegade;
+    src: url(../fonts/Renegade%20Master.ttf);
+}
+
+@font-face {
+    font-family: Gravity;
+    src: url(../fonts/Gravity-Book.ttf);
+}
+
+body{
+    background-image: url("../img/pattern.png");
+    background-color: #808080;
+    font-family: Gravity;
+}
+
+#container{
+    background-color: #fafad2;
+    max-width: 70%;
+    min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+h1{
+    font-family: Renegade;
+    font-size: 5em;
+    margin-bottom: 0px;
+}
+
+#navigation{
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 1.5em;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li{
+    padding-left: 15px;
+    display: inline-block;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    overflow: auto;
+}

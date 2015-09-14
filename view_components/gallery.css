@@ -1,0 +1,13 @@
+#loading {
+    position: absolute;
+    z-index: 1;
+    bottom: 50%;
+    width: 100%;
+    color: #ffc;
+    text-align: center;
+    font-family: "Georgia", serif;
+    font-size: 36px;
+    letter-spacing: .1em;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
